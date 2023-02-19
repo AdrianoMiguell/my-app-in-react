@@ -1,0 +1,9 @@
+.textDecoration{
+    color: coral;
+    font-style: italic;
+}
+
+.image{
+    width: 5rem;
+    height: 100%;
+}

@@ -1,4 +1,8 @@
 import logo from './logo.svg';
+import styles from "./components/css/Style.module.css";
+import Pessoa from './components/Pessoa.js';
+import Evento from "./components/Evento.js";
+import Form from "./components/Form.js";
 import './App.css';
 
 function App() {
@@ -18,6 +22,13 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <section className="m-5 d-grid gap-2">
+        <p className={styles.textDecoration} > A primeira pessoa da lista: <Pessoa nome = "Adriano" idade = "25" profissao = "Programador" foto = "https://miro.medium.com/max/1400/1*g09N-jl7JtVjVZGcd-vL2g.jpeg"/> </p>
+
+        <Evento/>
+        <Form/>
+      </section>
     </div>
   );
 }
