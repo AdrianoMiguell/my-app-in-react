@@ -7,3 +7,14 @@
     width: 5rem;
     height: 100%;
 }
+
+button{
+    border-radius: 5px;
+    background-color: coral;
+    color: antiquewhite;
+    border: 2px solid darkslategray;
+    margin: 1px;
+}
+button:hover{
+    background-color: rgba(255, 127, 80, 0.85);
+}
